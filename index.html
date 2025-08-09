@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard DJ</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Keyboard DJ <i class="fas fa-headphones"></i></h1>
+            <p>Turn your typing into a chaotic music performance!</p>
+        </header>
+
+        <div class="keyboard-container">
+            <div class="keyboard-display">
+                <p>Press any key to make sounds!</p>
+                <div id="last-key">No key pressed yet</div>
+            </div>
+        </div>
+        
+        <div id="sound-container" class="sound-container">
+            <!-- Sound buttons will be generated here by JavaScript -->
+        </div>
+
+        <div class="visual-feedback" id="visual-feedback"></div>
+
+        <footer>
+            <p>Created with <i class="fas fa-heart"></i> | Press keys to DJ!</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
